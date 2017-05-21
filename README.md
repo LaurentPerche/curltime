@@ -54,3 +54,7 @@ Next step is to create an Alias as follow: alias curltime="curl -w "@curl-format
           time_TTFB:  2.133
                       ----------
          time_total:  2.133
+
+
+
+Credit/Inspiration: http://blog.kenweiner.com/2014/11/http-request-timings-with-curl.html
