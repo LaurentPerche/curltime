@@ -40,7 +40,7 @@ Next step is to create an Alias as follow: alias curltime="curl -w "@curl-format
         size_upload:  0
      speed_download:  29278.000
        speed_upload:  0.000
-  ssl_verify_result:  0
+       ssl_verify_result:  0
       url_effective:  https://pbs.twimg.com/profile_images/798943583784968192/zTRX1owc_400x400.jpg
 
 ===  TIME BREAKDOWN:  ==========
@@ -48,7 +48,7 @@ Next step is to create an Alias as follow: alias curltime="curl -w "@curl-format
     time_appconnect:  0.601
     time_TCPconnect:  0.522
      time_DNSlookup:  0.518
-   time_pretransfer:  0.601
+     time_pretransfer:  0.601
  time_starttransfer:  0.613
       time_redirect:  0.000
           time_TTFB:  0.613
