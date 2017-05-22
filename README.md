@@ -32,7 +32,7 @@ Next step is to create an Alias as follow: alias curltime="curl -w "@curl-format
 =============  FILE:  ==========
 
        content_type:  image/jpeg
- filename_effective:  /dev/null
+       filename_effective:  /dev/null
      ftp_entry_path:
       size_download:  18023
         size_header:  574
