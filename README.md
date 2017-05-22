@@ -7,7 +7,7 @@ My own custom format file (curl-format.txt) is provided for reference.
 
 Next step is to create an Alias as follow: alias curltime="curl -w "@curl-format.txt" -o /dev/null -s"
 
-> curltime www.github.xom
+> curltime www.github.com
 
 -w "@curl-format.txt" tells cURL to use our format file
 -o /dev/null redirects the output of the request to /dev/null
@@ -16,7 +16,7 @@ Next step is to create an Alias as follow: alias curltime="curl -w "@curl-format
    
    Here is the output: 
    
-   =============  HOST:  ==========
+=============  HOST:  ==========
 
           server_ip:  192.30.255.112
         server_port:  443
