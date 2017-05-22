@@ -7,7 +7,7 @@ My own custom format file (curl-format.txt) is provided for reference.
 
 Next step is to create an Alias as follow: alias curltime="curl -w "@curl-format.txt" -o /dev/null -s"
 
-> curltime www.github.com
+> curltime https://pbs.twimg.com/profile_images/798943583784968192/zTRX1owc_400x400.jpg 
 
 -w "@curl-format.txt" tells cURL to use our format file
 -o /dev/null redirects the output of the request to /dev/null
@@ -18,42 +18,42 @@ Next step is to create an Alias as follow: alias curltime="curl -w "@curl-format
    
 =============  HOST:  ==========
 
-          server_ip:  192.30.255.112
+          server_ip:  117.18.237.70
         server_port:  443
 
 =======  CONNECTION:  ==========
 
-          http_code:  301
+          http_code:  200
        http_connect:  000
        num_connects:  1
       num_redirects:  0
-       redirect_url:  https://github.com/
+       redirect_url:
 
 =============  FILE:  ==========
 
-       content_type:
+       content_type:  image/jpeg
  filename_effective:  /dev/null
      ftp_entry_path:
-      size_download:  0
-        size_header:  103
-       size_request:  78
+      size_download:  18023
+        size_header:  574
+       size_request:  131
         size_upload:  0
-     speed_download:  0.000
+     speed_download:  29278.000
        speed_upload:  0.000
   ssl_verify_result:  0
-      url_effective:  https://www.github.com/
+      url_effective:  https://pbs.twimg.com/profile_images/798943583784968192/zTRX1owc_400x400.jpg
 
 ===  TIME BREAKDOWN:  ==========
 
-    time_appconnect:  1.901
-    time_TCPconnect:  0.782
-     time_DNSlookup:  0.526
-   time_pretransfer:  1.901
- time_starttransfer:  2.133
+    time_appconnect:  0.601
+    time_TCPconnect:  0.522
+     time_DNSlookup:  0.518
+   time_pretransfer:  0.601
+ time_starttransfer:  0.613
       time_redirect:  0.000
-          time_TTFB:  2.133
+          time_TTFB:  0.613
                       ----------
-         time_total:  2.133
+         time_total:  0.616
 
 
 
