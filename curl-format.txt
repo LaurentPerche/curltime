@@ -28,13 +28,12 @@
 \n
 ===  TIME BREAKDOWN:  ==========\n
 \n
-    time_appconnect:  %{time_appconnect}\n
-    time_TCPconnect:  %{time_connect}\n
-     time_DNSlookup:  %{time_namelookup}\n
-   time_pretransfer:  %{time_pretransfer}\n
- time_starttransfer:  %{time_starttransfer}\n
-      time_redirect:  %{time_redirect}\n
-          time_TTFB:  %{time_starttransfer}\n
-                      ----------\n
-         time_total:  %{time_total}\n
+    time_dns_lookup:  %{time_namelookup}\n
+ time_tcp_connected:  %{time_connect}\n
+time_handshake_done:  %{time_appconnect}\n
+  time_request_sent:  %{time_pretransfer}\n
+    time_first_byte:  %{time_starttransfer}\n
+    time_downloaded:  %{time_total}\n
+\n
+     time_redirects:  %{time_redirect}\n
 \n
